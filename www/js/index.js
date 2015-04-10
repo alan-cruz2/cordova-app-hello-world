@@ -45,7 +45,26 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        // This way doesn't work!
+        //$('#myButton').click(function () {
+        //    alert("Button pressed");
+        //});
+
+        $('#myButton').on('click', function () {
+            alert("Button pressed");
+        });
+
+        // This way does
+        //document.getElementById("myButton").addEventListener('click', function () {
+        //    alert('Button pressed');
+        //});
     }
+};
+
+var internetOfThings = {
+
+
 };
 
 app.initialize();

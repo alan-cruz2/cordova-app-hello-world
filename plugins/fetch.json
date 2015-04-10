@@ -1,0 +1,8 @@
+{
+    "org.allseen.alljoyn": {
+        "source": {
+            "type": "registry",
+            "id": "org.allseen.alljoyn@0.0.4"
+        }
+    }
+}

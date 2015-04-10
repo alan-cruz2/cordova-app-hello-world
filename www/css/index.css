@@ -83,7 +83,6 @@ h1 {
     -webkit-border-radius:4px;
     color:#FFFFFF;
     font-size:12px;
-    margin:0px 30px;
     padding:2px 0px;
 }
 
@@ -94,6 +93,16 @@ h1 {
 
 .event.received {
     background-color:#4B946A;
+    display:none;
+}
+
+.event.connect {
+    background-color:#333333;
+    display:block;
+}
+
+.event.connected {
+    background-color:#333333;
     display:none;
 }
 
